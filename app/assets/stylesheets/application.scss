@@ -16,9 +16,12 @@
  */
 
  /*"bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"*/
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+/********** MY STYLES **********/
 
 #logo {
   font-size: 26px;
@@ -30,3 +33,9 @@
     color: teal;
   }
 }
+
+h2  {
+  color: black;
+}
+
+
