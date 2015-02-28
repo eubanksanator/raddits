@@ -19,7 +19,7 @@
       <nav class="collapse navbar-collapse navbar-ex1-collapse">
         <% if user_signed_in? %>
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to 'Submit Link', new_link_url %></li>
+            <li><%= link_to 'Add Link', new_link_url %></li>
             <li><%= link_to 'Account', edit_user_registration_url %></li>
             <li><%= link_to 'Sign Out', destroy_user_session_url, :method => 'delete' %></li>
           </ul>

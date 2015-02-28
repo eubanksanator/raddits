@@ -2,17 +2,20 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-6">
-
-  <div class="panel panel-primary ">
-    <div class="panel-heading">
-      <div class="panel-title"><strong><%= @link.title %></strong></div>
+<!--     <div class="col-md-6">
+ -->
+      <div class="panel panel-primary ">
+        <div class="panel-heading">
+          <div class="panel-title"><strong><%= @link.title %></strong></div>
         </div>
-          <div class="panel-body"><%= link_to @link.url, "http://facebook.com" %><br>
-           <div class="pull-right"><%= link_to 'Edit', edit_link_path(@link) %> | <%= link_to 'Back', links_path %></div>
-            </div>
+        <div class="panel-body"><%= link_to @link.url, "http://facebook.com" %><br>
+          <% if @link.user == current_user %>
+          <div class="pull-right"><%= link_to 'Edit', edit_link_path(@link) %> | <%= link_to 'Back', links_path %></div>
+          <% end %>
         </div>
       </div>
-    </div>
-  </div>
+<!--     </div>
+ -->  </div>
+</div>
+</div>
 
