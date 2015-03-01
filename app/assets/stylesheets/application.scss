@@ -17,8 +17,11 @@
 
  /*"bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"*/
 
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
 
 
 /********** MY STYLES **********/
@@ -38,4 +41,6 @@ h2  {
   color: black;
 }
 
+.container  {padding-bottom: 30px;}
+/*Want to add bottom padding to edit form*/
 
