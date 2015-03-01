@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'acts_as_votable', '~> 0.10.0'
 gem 'bootstrap-sass', '~> 3.3.3'
 
 gem 'devise'
